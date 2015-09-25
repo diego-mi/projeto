@@ -1,0 +1,58 @@
+/* POSTAR */
+.postar {
+
+}
+
+/* qdo normal */
+.postar-principal {
+	margin-bottom: 0;
+}
+.postar-icon, .postar-textarea {
+	transition: all 500ms ease-out;
+}
+
+.postar-icon {
+	font-size: 32px;
+}
+
+.postar .postar-textarea {
+	border: 1px solid #fff;
+	border-bottom: 1px solid #ccc;
+	height: 34px;
+    margin-top: 10px;
+}
+
+.postar-action {
+	display: none;
+}
+
+.postar-privacidade {
+    display: none;
+    overflow: hidden;
+    margin: 8px 0 0;
+}
+
+.postar-btn-action {
+    margin-top: 10px;
+}
+.postar-btn-action button, .postar-btn-action a{
+    float: right;
+    margin-left: 10px;
+}
+
+/* qdo ativo */
+.active .postar-principal {
+	margin-bottom: 7px;
+}
+.active .postar-icon {
+	font-size: 60px;
+}
+
+.active .postar-textarea {     min-height: 76px; } .active .postar-action {
+display: block; }
+
+
+.active .postar-privacidade {
+    display: block;
+}
+/* FIM POSTAR */
